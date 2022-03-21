@@ -20,7 +20,7 @@ def send_email(to, message, subject):
     with smtplib.SMTP("smtp.mailtrap.io", 2525) as smtp:
         smtp.ehlo()
         smtp.starttls()
-        smtp.login("9cf3dd4a1cc396", "c16c8dd61940d8")
+        smtp.login("9cf3dd4a1csc396", "c16c8dsd61940d8")
         smtp.send_message(email)
         print(f"Email enviado para {to} com sucesso.")
 
